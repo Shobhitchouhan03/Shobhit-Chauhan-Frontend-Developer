@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "siteTitle": "Shobhit Chauhan — Frontend Developer",
+    "favicon": "/favicon.svg"
+  },
+  "personal": {
+    "name": "Shobhit Chauhan",
+    "firstName": "Shobhit",
+    "role": "Frontend Developer",
+    "roles": ["Frontend Developer", "React Engineer", "UI Craftsman", "Interface Builder"],
+    "location": "Delhi, India",
+    "bio": "Frontend Developer passionate about building modern, responsive, interactive websites with React and JavaScript.",
+    "longBio": "I design and build interfaces that feel considered from the first pixel to the last transition. My focus is React — component systems that stay clean at scale, motion that earns its place, and layouts that hold up on every screen. I care about the details most people scroll past: the easing on a hover state, the rhythm of a grid, the weight of a headline.",
+    "avatar": "/avatar.png",
+    "resumeUrl": "/resume.pdf",
+    "availableForWork": true,
+    "yearsExperience": 3,
+    "email": "Chouhanshobhit03@gmail.com",
+    "phone": "+91 82873 31341",
+    "whatsapp": "918287331341"
+  },
+  "stats": [
+    { "label": "Projects Shipped", "value": 32, "suffix": "+" },
+    { "label": "Happy Clients", "value": 18, "suffix": "+" },
+    { "label": "Years of Craft", "value": 3, "suffix": "+" },
+    { "label": "Cups of Coffee", "value": 900, "suffix": "+" }
+  ],
+  "socials": [
+    { "name": "GitHub", "url": "https://github.com/shobhitchauhan", "icon": "FiGithub" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/shobhitchauhan", "icon": "FiLinkedin" },
+    { "name": "Instagram", "url": "https://instagram.com/shobhitchauhan", "icon": "FiInstagram" },
+    { "name": "X", "url": "https://x.com/shobhitchauhan", "icon": "FiTwitter" },
+    { "name": "Portfolio", "url": "https://shobhitchauhan.dev", "icon": "FiGlobe" }
+  ],
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Testimonials", "href": "#testimonials" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "about": {
+    "storyTitle": "A little about my process",
+    "story": "I started out tinkering with static HTML pages and got hooked the moment CSS transitions felt alive. That curiosity turned into a career built around React — component-driven thinking, performance budgets, and interfaces that respect the person using them. Every project starts with a question: what's the one thing this screen needs to say?",
+    "achievements": [
+      { "title": "Top Rated Freelancer", "org": "Upwork", "year": "2025" },
+      { "title": "Best Portfolio Redesign", "org": "Frontend Awards Community", "year": "2024" },
+      { "title": "Open Source Contributor", "org": "React Ecosystem", "year": "2023 — Present" }
+    ],
+    "education": [
+      { "degree": "Bachelor's Degree, Final Year", "school": "School of Open Learning, University of Delhi", "period": "Expected 2025" },
+      { "degree": "12th Standard (Science/General Stream)", "school": "Govt. Sarvodaya Bal Vidhyalay, New Delhi", "period": "2021" }
+    ]
+  },
+  "skills": [
+    { "name": "React", "level": 95, "category": "Framework" },
+    { "name": "JavaScript", "level": 92, "category": "Language" },
+    { "name": "Tailwind CSS", "level": 94, "category": "Styling" },
+    { "name": "HTML5", "level": 96, "category": "Markup" },
+    { "name": "CSS3", "level": 93, "category": "Styling" },
+    { "name": "Redux", "level": 82, "category": "State" },
+    { "name": "Git & GitHub", "level": 88, "category": "Tooling" },
+    { "name": "Responsive Design", "level": 95, "category": "Layout" },
+    { "name": "Framer Motion", "level": 85, "category": "Animation" },
+    { "name": "REST APIs", "level": 80, "category": "Integration" }
+  ],
+  "projects": [
+    {
+      "id": "proj-01",
+      "title": "Fortitude Gym",
+      "category": "Fitness Website",
+      "description": "A modern and responsive gym website featuring a clean UI, workout programs, trainer showcase, membership plans, and a mobile-friendly design for an engaging fitness experience.",
+      "image": "/projects/project-1.jpg",
+      "tech": ["React", "Vite", "CSS", "JavaScript"],
+      "github": "https://github.com/shobhitchouhan03/fortitude-gym-",
+      "live": "https://shobhitchouhan03.github.io/fortitude-gym-/",
+      "featured": true
+  },
+    {
+      "id": "proj-02",
+      "title": "Portfolio Website",
+      "category": "Personal Portfolio",
+      "description": "A modern, responsive personal portfolio showcasing projects, technical skills, and contact information with smooth animations and a clean user interface.",
+      "image": "/projects/project-2.jpg",
+      "tech": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+      "github": "https://github.com/shobhitchouhan03",
+      "live": "https://verdant-unicorn-a76032.netlify.app/",
+      "featured": true
+    },
+    {
+      "id": "proj-03",
+      "title": "Dental Clinic Booking",
+      "category": "Healthcare",
+      "description": "A modern and responsive dental clinic booking website featuring online appointment scheduling, doctor profiles, services, patient testimonials, and a clean healthcare-focused UI.",
+      "image": "/projects/project-3.jpg",
+      "tech": ["React", "Vite", "Tailwind CSS"],
+      "github": "https://github.com/shobhitchouhan03/dental-clinic-booking",
+      "live": "https://shobhitchouhan03.github.io/dental-clinic-booking/",
+      "featured": true
+    },
+    {
+      "id": "proj-04",
+      "title": "SIMS Unisex Salon",
+      "category": "Beauty & Salon",
+      "description": "A modern and responsive salon website designed for SIMS Unisex Salon, featuring premium service showcases, online appointment booking, pricing, stylist information, testimonials, and an elegant user experience.",
+      "image": "/projects/project-4.jpg",
+      "tech": ["React", "Vite", "Tailwind CSS"],
+      "github": "https://github.com/shobhitchouhan03/sims-unisex-salon",
+      "live": "https://shobhitchouhan03.github.io/sims-unisex-salon/",
+      "featured": false
+    },
+    {
+      "id": "proj-05",
+      "title": "Aperture — Photography Studio",
+      "category": "Landing Page",
+      "description": "A cinematic one-page site for a photography studio with a full-bleed gallery and magnetic call-to-actions.",
+      "image": "/projects/project-5.jpg",
+      "tech": ["React", "Tailwind CSS", "GSAP"],
+      "github": "https://github.com/shobhitchauhan/aperture-studio",
+      "live": "https://aperture-studio.vercel.app",
+      "featured": false
+    },
+    {
+      "id": "proj-06",
+      "title": "Basecamp — Startup Landing",
+      "category": "Landing Page",
+      "description": "A conversion-focused landing page for an early-stage startup with animated pricing tiers and a waitlist form.",
+      "image": "/projects/project-6.jpg",
+      "tech": ["React", "Tailwind CSS", "Framer Motion"],
+      "github": "https://github.com/shobhitchauhan/basecamp-landing",
+      "live": "https://basecamp-landing.vercel.app",
+      "featured": false
+    }
+  ],
+  "projectCategories": ["All", "Landing Page", "Web App", "Portfolio", "Dashboard"],
+  "services": [
+    {
+      "title": "Frontend Development",
+      "description": "Production-grade interfaces built with React — clean component architecture, fast load times, zero layout shift.",
+      "icon": "FiCode"
+    },
+    {
+      "title": "Responsive Design",
+      "description": "Layouts engineered to hold their shape from a 4K monitor down to a folded phone, with no broken breakpoints.",
+      "icon": "FiSmartphone"
+    },
+    {
+      "title": "Landing Pages",
+      "description": "High-conversion landing pages with motion that guides the eye, not distracts from the message.",
+      "icon": "FiLayout"
+    },
+    {
+      "title": "Portfolio Websites",
+      "description": "Personal sites that feel like a signature — distinctive typography, considered pacing, content you can edit yourself.",
+      "icon": "FiUser"
+    },
+    {
+      "title": "React Development",
+      "description": "Hooks-based, reusable component systems that scale cleanly as the product grows.",
+      "icon": "FiCpu"
+    },
+    {
+      "title": "Website Redesign",
+      "description": "Taking a dated interface and rebuilding it with a modern design language, without losing what already works.",
+      "icon": "FiRefreshCw"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Frontend Developer",
+      "company": "Freelance",
+      "period": "2024 — Present",
+      "location": "Remote",
+      "description": "Designing and building React-based websites and product interfaces for startups and independent founders."
+    },
+    {
+      "role": "Frontend Development Intern",
+      "company": "PixelForge Studio",
+      "period": "Jan 2024 — Jun 2024",
+      "location": "Delhi, India",
+      "description": "Built and maintained component libraries in React and Tailwind CSS for client marketing sites."
+    },
+    {
+      "role": "Open Source Contributor",
+      "company": "Independent",
+      "period": "2023 — Present",
+      "location": "Remote",
+      "description": "Contributing UI components and documentation fixes to React ecosystem projects."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Ananya Rao",
+      "role": "Founder, Studio Loop",
+      "avatar": "/testimonials/t1.jpg",
+      "quote": "Shobhit rebuilt our landing page and conversions went up within the first week. The animations feel expensive without ever feeling slow.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus Lee",
+      "role": "Product Manager, Northfield",
+      "avatar": "/testimonials/t2.jpg",
+      "quote": "Clean component structure, clear communication, and a real eye for detail. Handed off the design and got back exactly what we imagined.",
+      "rating": 5
+    },
+    {
+      "name": "Priya Menon",
+      "role": "Creative Director, Studio Nine",
+      "avatar": "/testimonials/t3.jpg",
+      "quote": "One of the few developers who understands both code and design intent. The site he built still gets compliments months later.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What's your usual project turnaround?",
+      "answer": "A single-page portfolio or landing site typically takes 1–2 weeks from kickoff to launch, depending on content readiness."
+    },
+    {
+      "question": "Do you work with existing designs?",
+      "answer": "Yes — I can build from Figma files, or design and develop the full experience from scratch."
+    },
+    {
+      "question": "Can I update the content myself later?",
+      "answer": "Every site I build is content-driven, so you can update text, images, and links without touching any component code."
+    },
+    {
+      "question": "Do you offer ongoing support?",
+      "answer": "Yes, I offer maintenance retainers for clients who need continued updates after launch."
+    }
+  ],
+  "footer": {
+    "tagline": "Building interfaces worth lingering on.",
+    "copyright": "© 2026 Shobhit Chauhan. All rights reserved."
+  }
+}
