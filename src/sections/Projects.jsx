@@ -5,15 +5,32 @@ import data from "../data/data.json";
 import Reveal from "../components/Reveal";
 import Button from "../components/Button";
 
-function ImageBlock({ label, className = "", style }) {
+function ProjectImage({ project, className = "" }) {
   return (
     <div
-      style={style}
-      className={`flex items-center justify-center rounded-[40px] border border-border bg-surface sm:rounded-[50px] md:rounded-[60px] ${className}`}
+      className={`relative overflow-hidden rounded-[24px] border border-border bg-surface sm:rounded-[32px] md:rounded-[40px] ${className}`}
     >
-      <span className="px-3 text-center font-display text-xs font-medium uppercase tracking-widest text-muted sm:text-sm">
-        {label}
-      </span>
+      <img
+        src={project.image}
+        alt={project.title}
+        loading="lazy"
+        className="h-full w-full object-cover object-top"
+        onError={(e) => {
+          e.currentTarget.style.display = "none";
+          e.currentTarget.nextSibling.style.display = "flex";
+        }}
+      />
+      <div
+        style={{ display: "none" }}
+        className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-surface to-surface-2 text-center"
+      >
+        <span className="font-mono text-[10px] uppercase tracking-widest text-blue-soft">
+          {project.category}
+        </span>
+        <span className="px-4 font-display text-lg font-medium uppercase text-muted sm:text-xl">
+          {project.title}
+        </span>
+      </div>
     </div>
   );
 }
@@ -31,12 +48,12 @@ function ProjectCard({ project, index, total }) {
   return (
     <div
       ref={cardRef}
-      className="sticky top-24 h-[85vh] md:top-32"
+      className="relative sm:sticky sm:top-24 md:top-32"
       style={{ top: `${index * 28}px` }}
     >
       <motion.div
         style={{ scale }}
-        className="h-full rounded-[40px] border-2 border-border bg-bg p-4 sm:rounded-[50px] sm:p-6 md:rounded-[60px] md:p-8"
+        className="h-auto rounded-[40px] border-2 border-border bg-bg p-4 sm:h-[78vh] sm:rounded-[50px] sm:p-6 md:h-[85vh] md:rounded-[60px] md:p-8"
       >
         <div className="flex h-full flex-col gap-6">
           <div className="flex flex-wrap items-center justify-between gap-4">
@@ -54,6 +71,16 @@ function ProjectCard({ project, index, total }) {
                 <h3 className="font-display text-xl font-medium uppercase text-text sm:text-2xl md:text-3xl">
                   {project.title}
                 </h3>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {project.tech.map((t) => (
+                    <span
+                      key={t}
+                      className="rounded-full border border-border px-2.5 py-0.5 font-mono text-[10px] uppercase tracking-wide text-muted"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
             <Button
@@ -69,21 +96,7 @@ function ProjectCard({ project, index, total }) {
             </Button>
           </div>
 
-          <div className="flex flex-1 gap-3">
-            <div className="flex w-2/5 flex-col gap-3">
-              <ImageBlock
-                label={project.tech[0]}
-                className="w-full"
-                style={{ height: "clamp(130px, 16vw, 230px)" }}
-              />
-              <ImageBlock
-                label={project.tech[1] || project.tech[0]}
-                className="w-full flex-1"
-                style={{ height: "clamp(160px, 22vw, 340px)" }}
-              />
-            </div>
-            <ImageBlock label={project.title} className="w-3/5 flex-1" />
-          </div>
+          <ProjectImage project={project} className="flex-1" />
         </div>
       </motion.div>
     </div>

@@ -139,6 +139,13 @@ body {
 .animate-float-slower {
   animation: float-slower 13s ease-in-out infinite;
 }
+@keyframes float-avatar-big {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-45px) rotate(2deg); }
+}
+.animate-float-avatar {
+  animation: float-avatar-big 6s ease-in-out infinite;
+}
 
 @keyframes gradient-shift {
   0% { background-position: 0% 50%; }
