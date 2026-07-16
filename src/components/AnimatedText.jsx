@@ -11,7 +11,7 @@ function Char({ char, index, total, scrollYProgress }) {
   }
 
   return (
-    <span className="relative inline-block">
+    <span className="relative">
       <span className="invisible">{char}</span>
       <motion.span style={{ opacity }} className="absolute left-0 top-0">
         {char}
