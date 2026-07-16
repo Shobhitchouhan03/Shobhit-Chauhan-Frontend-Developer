@@ -6,11 +6,15 @@ function Char({ char, index, total, scrollYProgress }) {
   const end = start + 1 / total;
   const opacity = useTransform(scrollYProgress, [start, end], [0.2, 1]);
 
+  if (char === " ") {
+    return <span> </span>;
+  }
+
   return (
-    <span className="relative">
-      <span className="invisible">{char === " " ? "\u00A0" : char}</span>
+    <span className="relative inline-block">
+      <span className="invisible">{char}</span>
       <motion.span style={{ opacity }} className="absolute left-0 top-0">
-        {char === " " ? "\u00A0" : char}
+        {char}
       </motion.span>
     </span>
   );
