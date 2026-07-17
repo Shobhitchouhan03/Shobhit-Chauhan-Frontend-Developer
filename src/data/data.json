@@ -98,7 +98,7 @@
       "image": "/projects/project-3.jpg",
       "tech": ["React", "Vite", "Tailwind CSS"],
       "github": "https://github.com/shobhitchouhan03/dental-clinic-booking",
-      "live" : "smile-by-smiar.netlify.app",
+      "live" : "https://smile-by-smiar.netlify.app/",
       "featured": true
     },
     {
@@ -109,7 +109,7 @@
       "image": "/projects/project-4.jpg",
       "tech": ["React", "Vite", "Tailwind CSS"],
       "github": "https://github.com/shobhitchouhan03/sims-unisex-salon",
-      "live": "sims-unsiexsalon.netlify.app",
+      "live": "https://sims-unsiexsalon.netlify.app/",
       "featured": false
     },
     {
